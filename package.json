@@ -1,0 +1,30 @@
+{
+  "name": "redux-simple-starter",
+  "version": "1.0.0",
+  "description": "Simple starter package for Redux with React and Babel support",
+  "main": "index.js",
+  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "dependencies": {
+    "babel-preset-stage-1": "^6.1.18",
+    "chart.js": "^2.7.3",
+    "d3": "^5.9.1",
+    "react": "^0.14.3",
+    "react-chartjs-2": "^2.7.4",
+    "react-dom": "^0.14.3",
+    "react-redux": "4.3.0",
+    "react-router": "^2.0.1",
+    "redux": "^3.0.4",
+    "redux-thunk": "^2.3.0"
+  }
+}
