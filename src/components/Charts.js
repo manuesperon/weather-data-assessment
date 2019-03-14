@@ -7,7 +7,7 @@ class Charts extends Component {
   render() {
     return(
       <div className="chart-container">
-        <h1 className="chartTitle">Temperature Charts</h1>
+        <h1 className="chartTitle">Temperature Chart</h1>
         <Line data={this.props.data.temperatureChart} />
         <h1 className="chartTitle">Direction Charts</h1>
         <Line data={this.props.data.windDirectionChart} />
